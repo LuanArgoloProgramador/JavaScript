@@ -1,0 +1,21 @@
+<title>Eleições Presidências 2014</title>
+<script language="javascript">
+    var Dilma = 13;
+    var Aecio = 45;
+    var pergunta = prompt("Pesquisa Boca de Urna - 26/10/2014\nEm quem você votaria?");
+    if(pergunta == "Dilma" || pergunta == Dilma || pergunta == "dilma") {
+        document.write("Dilma Roussef (13)");
+    }
+    else if(pergunta == "Aecio" || pergunta == "Aécio" || pergunta == Aecio || pergunta == "aecio" || pergunta == "aécio") {
+        document.write("Aécio Neves (45)");
+    }
+    else if(pergunta == "Branco") {
+        document.write("Branco!");
+    }
+    else if(pergunta == "Nulo") {
+        document.write("Nulo!");
+    }
+    else {
+        document.write("Nulo.");
+    }
+</script>
